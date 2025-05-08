@@ -1,0 +1,251 @@
+header .navbar.nav-contact {
+    background-color: #dedede;
+    padding: 5px; 
+}
+
+header .navbar.nav-contact span {
+    font-size: 13px;
+}
+
+header .navbar.nav-contact a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header .navbar.nav-contact a:hover {
+    text-decoration: none;
+}
+
+/* .carousel img {
+    height: 85vh;
+    object-fit: cover;
+} */
+
+.about-us ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.box-title-page {
+    position: relative;
+    background-color: #fff;
+    top: -20px;
+}
+
+.box-whatsapp a {
+    text-decoration: none;
+}
+
+.box-whatsapp {
+    text-align: end;
+    line-height: 600%;
+}
+
+
+#carouselExample {
+    margin-top: 120px;
+}
+
+.values-list {
+    /* position: absolute;
+    top: 1370px;
+    margin: 0 auto; */
+    position: relative;
+    top: -80px;
+    color: #343333;
+    border-radius: 15px;
+}
+
+#our-values > div.values-list > div > div > div {
+    background-color: #ededed;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.explore {
+    background-color: #fff;
+    position: relative;
+    top: -20px;
+}
+
+.explore > span {
+    font-size: 11px;
+}
+
+.explore > a {
+    font-weight: bold;
+}
+
+.explore > a:hover {
+    background-color: #fff !important;
+    color: #343333 !important;
+    border: 1px solid #343333;
+}
+
+#showcase {
+    position: relative;
+    box-sizing: border-box;
+    background-image: url("../img/pemandangan.jpg");
+    height: 50vh;
+    background-position-x: 52.67%;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#showcase .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(33, 33, 33, .5);
+    border-radius: 30px;
+}
+
+#showcase .showcase-text {
+    position: relative;
+    text-align: left;
+    color: white;
+    padding-left: 10%;
+    padding-right: 20px;
+    z-index: 2;
+}
+
+#showcase .showcase-text p {
+    /* font-weight: bold; */
+    font-size: 1.3rem;
+}
+
+/* why us section */
+.highlight-box {
+    background-color: #00594c;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    z-index: 2;
+    position: relative;
+}
+.info-box {
+    background-color: #00715d;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+@media (max-width: 320px) {
+    .explore span {
+        padding-left: 6px !important;
+    }
+}
+
+@media (max-width: 399px) {
+    .explore > a {
+        font-size: 7px !important;
+    }
+}
+
+@media (max-width: 496px) {
+
+    .box-title-page .box-whatsapp {
+        line-height: 50px;
+    }
+
+    .explore {
+        padding: 10px 10px !important;
+    }
+
+    .explore > span {
+        font-size: 7px !important;
+    }
+
+}
+
+@media (max-width: 575px) {
+    #our-values > div.values-list > div > div.row {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    #our-values > div.values-list > div > div > div {
+        margin: 13px !important;
+        width: 110px;
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 576px) {
+    .box-title-page {
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .explore {
+        width: 90%;
+    }
+
+    .explore > span {
+        font-size: 9px;
+        margin-top: 0 !important;
+    }
+
+    .explore > a {
+        font-size: 10px;
+        padding: 8px 30px !important;
+    }
+}
+@media (max-width: 765px) {
+    header .navbar.nav-contact {
+        display: none;
+    }
+
+    #carouselExample {
+        margin-top: 90px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #cars .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (min-width: 765px) {
+    header > nav {
+        margin-top: 34px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .box-whatsapp {
+        border-right: none !important;
+        border-bottom: 2px solid #dadada !important;
+    }
+}
+
+@media (max-width: 2560px) {
+    .explore span {
+        padding-top: 11px !important;
+    }
+}
